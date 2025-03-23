@@ -3,6 +3,6 @@ services:
     name: location-tracker-server
     runtime: python
     buildCommand: pip install -r requirements.txt
-    startCommand: python server.py
+    startCommand: python main.py
     env: python
     port: 10000
